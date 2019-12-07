@@ -1,2 +1,2 @@
 image:
-	docker build -t suzukishunsuke/alpne-envsubst:local .
+	docker build -t suzukishunsuke/alpine-envsubst:local .
