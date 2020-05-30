@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM alpine:3.12
 RUN apk add --update libintl && \
     apk add --virtual build_deps gettext &&  \
     cp /usr/bin/envsubst /usr/local/bin/envsubst && \
